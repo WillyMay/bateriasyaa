@@ -4,7 +4,7 @@ function Facts() {
   return (
     <section>
       {/* Container */}
-      <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20" id='#nosotros'>
+      <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20" id='nosotros'>
         {/* Title */}
         <h2 className="text-center text-3xl font-bold md:text-5xl">
           Entregando soluciones y calidad

@@ -3,23 +3,22 @@ import { BookOpenIcon, Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/
 
 const Header = () => {
     let Links =[
-        {name:"HOME",link:"/"},
-        {name:"SERVICE",link:"/"},
-        {name:"ABOUT",link:"/"},
-        {name:"CONTACT",link:"/"},
+        {name:"Blank", link:"/"},
+        {name:"Servicios",link:"/"},
+        {name:"Quienes somos",link:"/"},
+        {name:"Contacto",link:"/"},
       ];
       let [open, setOpen] =useState(false);
 
     return (
         <div className='shadow-md w-full fixed top-0 left-0'>
-           <div className='md:flex items-center justify-between bg-white py-4 md:px-10 px-7'>
+           <div className='md:flex items-center justify-between bg-white md:px-10 px-7'>
             {/* logo section */}
-            <div className='font-bold text-2xl cursor-pointer flex items-center gap-1'>
-                <BookOpenIcon className='w-7 h-7 text-blue-600'/>
-                <span>Inscribe</span>
+            <div className='font-bold text-2xl cursor-pointer flex items-center'>
+               <img src="https://i.postimg.cc/BbByj0hw/output-onlinepngtools.png" alt="logo image" className='h-24 w-auto'/>
             </div>
             {/* Menu icon */}
-            <div onClick={()=>setOpen(!open)} className='absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7'>
+            <div onClick={()=>setOpen(!open)} className='absolute right-8 top-9 cursor-pointer md:hidden w-7 h-7'>
                 {
                     open ? <XMarkIcon/> : <Bars3BottomRightIcon />
                 }
@@ -32,7 +31,7 @@ const Header = () => {
                         <a href={link.link} className='text-gray-800 hover:text-blue-400 duration-500'>{link.name}</a>
                     </li>))
                 }
-                <button className='btn bg-blue-600 text-white md:ml-8 font-semibold px-3 py-1 rounded duration-500 md:static'>Get Started</button>
+                <button className='btn bg-red-600 text-white md:ml-8 font-semibold px-3 py-1 rounded duration-500 md:static'>LLAMAR AHORA</button>
             </ul>
             {/* button */}
            </div>

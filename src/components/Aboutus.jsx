@@ -27,6 +27,9 @@ function Aboutus() {
           </div>
         </div>
       </div>
+      <div id='contacto'>
+
+      </div>
     </section>
   )
 }

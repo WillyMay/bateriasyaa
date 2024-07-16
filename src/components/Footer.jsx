@@ -11,7 +11,7 @@ function Footer() {
             </a>
         <div className="sm:flex sm:items-start sm:justify-between">
             <div>
-            <p className='font-medium text-gray-500'>Fono: +56 9 3623 9484</p>
+            <p className='font-medium text-gray-500'>Fono: +56 9 6751 1208</p>
             <p className='font-medium text-gray-500'>Email: bateriasyaa@gmail.com</p>
             <br /><br />
             </div>

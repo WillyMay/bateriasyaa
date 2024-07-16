@@ -2,7 +2,7 @@ import React from "react";
 
 function services() {
   return (
-    <div className="mt-32" id="servicios">
+    <div className="mt-32" >
       <div className="services flex justify-center">
         Conoce más de{" "}
         <span className="text-blue-600 pl-1"> nuestros servicios</span>

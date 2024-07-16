@@ -15,7 +15,6 @@ function App() {
     <>
       <Header />
       <Hero />
-      <Horario />
       <NewServices />
       <Batteries />
       <Steps />

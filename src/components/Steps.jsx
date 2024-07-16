@@ -23,7 +23,7 @@ function Steps() {
           <div className="p-8 md:p-10">
             <h3 className="mb-4 text-2xl font-bold text-5xl">Espera</h3>
             <p className="text-lg text-gray-500">
-              Que uno de nuestros profesionales llegará a ubicación y lo atienda.
+              Que uno de nuestros profesionales llegue a su ubicación y lo atienda.
             </p>
             <div className="absolute right-0 top-[29%] hidden h-2/5 border-r border-gray-300 md:block"></div>
           </div>

@@ -19,12 +19,16 @@ const Header = () => {
       <Horario />
       <div className="md:flex items-center justify-between bg-white md:px-10 px-7">
         {/* logo section */}
+
         <div className="font-bold text-2xl cursor-pointer flex items-center">
-          <img
+        <a href="#inicio">
+        <img
             src="https://i.postimg.cc/BbByj0hw/output-onlinepngtools.png"
             alt="logo image"
             className="h-16 w-auto"
           />
+        </a>
+          
         </div>
         {/* Menu icon */}
         <div

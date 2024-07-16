@@ -4,6 +4,7 @@ import Facts from "./components/Facts"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
+import Horario from "./components/Horario"
 import NewServices from "./components/NewServices"
 import Payment from "./components/Payment"
 import Services from "./components/Services"
@@ -14,6 +15,7 @@ function App() {
     <>
       <Header />
       <Hero />
+      <Horario />
       <NewServices />
       <Batteries />
       <Steps />

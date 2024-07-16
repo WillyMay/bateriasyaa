@@ -20,9 +20,6 @@ function Hero() {
             </a>  
         </div>
     </div>
-    <div id='servicios'>
-      <br /><br />
-      </div>
 </section>
   )
 }

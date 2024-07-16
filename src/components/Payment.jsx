@@ -4,7 +4,7 @@ function Payment() {
   return (
     <section>
       {/* Container */}
-      <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
+      <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:pt-20">
         {/* Component */}
         <div className="mx-auto max-w-3xl text-center">
           {/* Title */}

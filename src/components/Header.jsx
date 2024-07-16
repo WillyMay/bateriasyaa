@@ -4,6 +4,7 @@ import {
   Bars3BottomRightIcon,
   XMarkIcon,
 } from "@heroicons/react/24/solid";
+import Horario from "./Horario";
 
 const Header = () => {
   let Links = [
@@ -16,19 +17,20 @@ const Header = () => {
 
   return (
     <div className="shadow-md w-full fixed top-0 left-0">
+      <Horario />
       <div className="md:flex items-center justify-between bg-white md:px-10 px-7">
         {/* logo section */}
         <div className="font-bold text-2xl cursor-pointer flex items-center">
           <img
             src="https://i.postimg.cc/BbByj0hw/output-onlinepngtools.png"
             alt="logo image"
-            className="h-24 w-auto"
+            className="h-20 w-auto"
           />
         </div>
         {/* Menu icon */}
         <div
           onClick={() => setOpen(!open)}
-          className="absolute right-8 top-9 cursor-pointer md:hidden w-7 h-7"
+          className="absolute right-8 top-16 cursor-pointer md:hidden w-7 h-7"
         >
           {open ? <XMarkIcon /> : <Bars3BottomRightIcon />}
         </div>

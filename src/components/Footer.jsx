@@ -18,7 +18,7 @@ function Footer() {
             <div>
                 <h1 className='font-medium text-gray-500'>Horarios:</h1>
                 <p className='font-medium text-gray-500'>Lunes a Domingo</p>
-                <p className='font-medium text-gray-500'>8:00am - 8:00pm</p>
+                <p className='font-medium text-gray-500'>7:00am - 8:00pm</p>
             </div>
             <br />
             <br />

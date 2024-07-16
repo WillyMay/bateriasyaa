@@ -4,7 +4,7 @@ function NewServices() {
   return (
     <section>
       {/* Container */}
-      <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
+      <div className="mx-auto w-full max-w-7xl px-5 md:px-10 pt-16">
         {/* Component */}
         <div className="flex flex-col items-center">
           <h2 className="text-center text-3xl font-bold md:text-5xl">

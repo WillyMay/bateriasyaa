@@ -4,7 +4,7 @@ function Steps() {
   return (
     <section>
       {/* Container */}
-      <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
+      <div className="mx-auto w-full max-w-7xl px-5 pt-16 md:px-10 ">
         {/* Title */}
         <h2 className="mb-8 text-center font-bold md:mb-12 text-5xl lg:mb-16">
           Nuestros servicios, en menos de <span className='text-red-600'>30 minutos.</span>

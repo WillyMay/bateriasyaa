@@ -23,7 +23,7 @@ const Header = () => {
         <div className="font-bold text-2xl cursor-pointer flex items-center">
         <a href="#inicio">
         <img
-            src="https://i.postimg.cc/BbByj0hw/output-onlinepngtools.png"
+            src="https://i.postimg.cc/qMYGGJmK/output-onlinepngtools.webp"
             alt="logo image"
             className="h-16 w-auto"
           />
